@@ -2,14 +2,14 @@
   text-align: center;
   color: rgb(172, 115, 30);
 }
-.px-2 {
+.menu-items {
   letter-spacing: 2px;
   padding: 5px;
 }
 h2 {
   text-align: center;
 }
-.texto-1 {
+.paragraph {
   padding: 5px;
   text-align: start;
   text-align: center;
@@ -20,15 +20,24 @@ h2 {
   display: block;
   margin: auto;
 }
-.color-1 {
+.important-color {
   color: rgb(204, 6, 6);
 }
-.color-2 {
+.highlighted {
   color: azure;
   background-color: black;
 }
-.boton {
+.primary-button {
   background-color: greenyellow;
+  border-radius: 10px;
+  border-style: double;
+  cursor: grab;
+  border-color: palevioletred;
+}
+
+.secondary-button {
+  background-color: purple;
+  color: white;
   border-radius: 10px;
   border-style: double;
   cursor: grab;
